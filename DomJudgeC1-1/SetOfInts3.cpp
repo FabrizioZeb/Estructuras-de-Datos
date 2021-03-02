@@ -14,6 +14,10 @@ SetOfInts3::SetOfInts3() {
 
 // Public methods
 
+int SetOfInts3::getSize() const {
+    return size;
+}
+
 bool SetOfInts3::isEmpty() const{
 	return (size == 0);
 }
@@ -76,6 +80,7 @@ int SetOfInts3::getMax(int & pos) {
 //Complejidad de O(size)
 int SetOfInts3::getMin(int & pos) {
     int min = elems[0];
+    pos = 0;
     for(int i = 1; i < size; i++){
         if(elems[i] < min){
             min = elems[i];
@@ -86,13 +91,11 @@ int SetOfInts3::getMin(int & pos) {
 }
 //Complejidad O(size)
 void SetOfInts3::removeMax(int &pos) {
-    getMax(pos);
     shiftLeftFrom(pos);
     size--;
 }
 //Complejidad O(size)
 void SetOfInts3::removeMin(int &pos) {
-    getMin(pos);
     shiftLeftFrom(pos);
     size--;
 }
@@ -112,11 +115,11 @@ istream& operator>>(istream& sIn, SetOfInts3& set) {
 }
 
 ostream& operator<<(ostream& sOut, SetOfInts3& set) {
-	sOut << "{";
+	sOut << "";
 	for (int i = 0; i < set.size-1; i++)
-		sOut << set.elems[i] << ",";
+		sOut << set.elems[i] << " ";
 	if (set.size > 0) sOut << set.elems[set.size-1];
-	sOut << "}";
+	sOut << "";
 	return sOut;
 }
 

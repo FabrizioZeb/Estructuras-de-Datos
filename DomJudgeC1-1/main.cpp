@@ -8,7 +8,6 @@
 #include "SetOfInts3.h"
 
 
-// función que resuelve el problema
 
 
 // Resuelve un caso de prueba, leyendo de la entrada la
@@ -16,31 +15,36 @@
 bool resuelveCaso() {
     // leer los datos de la entrada
     int k_elements, sentry = -1;
+    int num;
     int pos;
-    int elem;
-
     SetOfInts3 v;
     cin >> k_elements;
     if (k_elements == 0) {
         return false;
     }
 
-    cin >> elem;
-    while(elem != sentry){
-        v.add(elem);
-        cin >> elem;
+    /*  Coste del Algoritmo: (k = k_elements y n = size)
+     *  En peor caso, en el que n sea igual a k el coste es lineal ya que depende de k, si todos los números son distintos
+     *  el coste del algoritmo es el mismo que el de la función add, O(size) u O(k), ya que el coste de contains(num) es O(logn).
+     *  Si k = n y hay números repetidos el coste sigue siendo O(size) u O(k) ya que si el número está repetido no lo añade.
+     *  Y si k <= n el coste O(size).
+    */
+
+    cin >> num;
+    while(num != sentry){
+        if(!v.contains(num) && v.getSize() < k_elements){
+            v.add(num);
+        }
+        else if(!v.contains(num) && v.getMax(pos) > num){
+            v.removeMax(pos);
+            v.add(num);
+        }
+        cin >> num;
     }
 
-    //Algorithm:
-    //Complejidad O(v.size) por getMin() y removeMin() pero depende también de k_elements
-    for(int i = 0; i < k_elements; i++){
-        cout << v.getMin(pos) << " ";
-        v.removeMin(pos);
-    }
-    cout << endl;
+    cout << v << endl;
 
     return true;
-
 }
 
 int main() {
@@ -52,8 +56,7 @@ int main() {
 #endif
 
 
-    while (resuelveCaso())
-        ;
+    while (resuelveCaso());
 
 
     // Para restablecer entrada. Comentar para acepta el reto
