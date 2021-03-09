@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "C12.exe"
   "C12.exe.manifest"
   "C12.pdb"
-  "CMakeFiles/C12.dir/SetOfInts3.cpp.obj"
+  "CMakeFiles/C12.dir/SetOfInts1.cpp.obj"
   "CMakeFiles/C12.dir/main.cpp.obj"
   "libC12.dll.a"
 )

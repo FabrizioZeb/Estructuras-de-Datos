@@ -5,38 +5,43 @@
 #include <iomanip>
 #include <fstream>
 #include <cmath>
-#include "SetOfInts3.h"
+#include "SetOfInts1.h"
 
 using namespace std;
 
 
 
 // función que resuelve el problema
-void resolver(int num) {
-    SetOfInts3 set;
+
+void digitos(int &num, int & sum){
+    int digit;
+    sum = 0;
+    while (num > 0){
+        digit = num % 10;
+        sum += pow(digit,2);
+        num /= 10;
+    }
+}
+
+bool esFeliz(int num){
+    int sum, numRep;
     bool feliz = true;
-    int sum, digit, numRep;
+    SetOfInts1 set;
     set.add(num);
-    while (num != 1 && feliz){
-        sum = 0;
-        while (num > 0){
-            digit = num % 10;
-            sum += pow(digit,2);
-            num /= 10;
-        }
+    cout << num << " ";
+    while(num != 1 && feliz) {
+        digitos(num, sum);
         num = sum;
-        if(!set.contains(num)) {
+        if (!set.contains(num)) {
             set.add(num);
-        }
-        else {
+            cout << num << " ";
+        } else {
             numRep = num;
             feliz = false;
         }
     }
-    cout << set;
-    if(feliz) cout << "1";
-    else cout << numRep <<" 0";
-    cout << endl;
+    if(!feliz) cout << numRep << " ";
+    return feliz;
 }
 
 
@@ -47,11 +52,13 @@ bool resuelveCaso() {
     int n;
     // leer los datos de la entrada
     cin >> n;
-    if (! std::cin)
+    if (!cin) {
         return false;
+    }
 
-    resolver(n);
 
+    if(esFeliz(n)) cout << "1\n";
+    else cout << "0\n";
     // escribir sol
 
 
@@ -68,8 +75,7 @@ int main() {
 #endif
 
 
-    while (resuelveCaso())
-        ;
+    while (resuelveCaso());
 
 
     // Para restablecer entrada. Comentar para acepta el reto

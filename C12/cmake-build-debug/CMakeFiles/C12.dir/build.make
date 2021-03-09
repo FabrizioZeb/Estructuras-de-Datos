@@ -89,29 +89,29 @@ CMakeFiles/C12.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C12.dir/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fabri\CLionProjects\DomJudge\ED\C12\main.cpp -o CMakeFiles\C12.dir\main.cpp.s
 
-CMakeFiles/C12.dir/SetOfInts3.cpp.obj: CMakeFiles/C12.dir/flags.make
-CMakeFiles/C12.dir/SetOfInts3.cpp.obj: ../SetOfInts3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fabri\CLionProjects\DomJudge\ED\C12\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C12.dir/SetOfInts3.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\C12.dir\SetOfInts3.cpp.obj -c C:\Users\fabri\CLionProjects\DomJudge\ED\C12\SetOfInts3.cpp
+CMakeFiles/C12.dir/SetOfInts1.cpp.obj: CMakeFiles/C12.dir/flags.make
+CMakeFiles/C12.dir/SetOfInts1.cpp.obj: ../SetOfInts1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\fabri\CLionProjects\DomJudge\ED\C12\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C12.dir/SetOfInts1.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\C12.dir\SetOfInts1.cpp.obj -c C:\Users\fabri\CLionProjects\DomJudge\ED\C12\SetOfInts1.cpp
 
-CMakeFiles/C12.dir/SetOfInts3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C12.dir/SetOfInts3.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fabri\CLionProjects\DomJudge\ED\C12\SetOfInts3.cpp > CMakeFiles\C12.dir\SetOfInts3.cpp.i
+CMakeFiles/C12.dir/SetOfInts1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C12.dir/SetOfInts1.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\fabri\CLionProjects\DomJudge\ED\C12\SetOfInts1.cpp > CMakeFiles\C12.dir\SetOfInts1.cpp.i
 
-CMakeFiles/C12.dir/SetOfInts3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C12.dir/SetOfInts3.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fabri\CLionProjects\DomJudge\ED\C12\SetOfInts3.cpp -o CMakeFiles\C12.dir\SetOfInts3.cpp.s
+CMakeFiles/C12.dir/SetOfInts1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C12.dir/SetOfInts1.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\fabri\CLionProjects\DomJudge\ED\C12\SetOfInts1.cpp -o CMakeFiles\C12.dir\SetOfInts1.cpp.s
 
 # Object files for target C12
 C12_OBJECTS = \
 "CMakeFiles/C12.dir/main.cpp.obj" \
-"CMakeFiles/C12.dir/SetOfInts3.cpp.obj"
+"CMakeFiles/C12.dir/SetOfInts1.cpp.obj"
 
 # External object files for target C12
 C12_EXTERNAL_OBJECTS =
 
 C12.exe: CMakeFiles/C12.dir/main.cpp.obj
-C12.exe: CMakeFiles/C12.dir/SetOfInts3.cpp.obj
+C12.exe: CMakeFiles/C12.dir/SetOfInts1.cpp.obj
 C12.exe: CMakeFiles/C12.dir/build.make
 C12.exe: CMakeFiles/C12.dir/linklibs.rsp
 C12.exe: CMakeFiles/C12.dir/objects1.rsp

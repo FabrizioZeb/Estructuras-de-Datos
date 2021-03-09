@@ -142,32 +142,32 @@ C12/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C12.dir\build.make CMakeFiles/C12.dir/build
 .PHONY : C12/fast
 
-SetOfInts3.obj: SetOfInts3.cpp.obj
+SetOfInts1.obj: SetOfInts1.cpp.obj
 
-.PHONY : SetOfInts3.obj
+.PHONY : SetOfInts1.obj
 
 # target to build an object file
-SetOfInts3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C12.dir\build.make CMakeFiles/C12.dir/SetOfInts3.cpp.obj
-.PHONY : SetOfInts3.cpp.obj
+SetOfInts1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C12.dir\build.make CMakeFiles/C12.dir/SetOfInts1.cpp.obj
+.PHONY : SetOfInts1.cpp.obj
 
-SetOfInts3.i: SetOfInts3.cpp.i
+SetOfInts1.i: SetOfInts1.cpp.i
 
-.PHONY : SetOfInts3.i
+.PHONY : SetOfInts1.i
 
 # target to preprocess a source file
-SetOfInts3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C12.dir\build.make CMakeFiles/C12.dir/SetOfInts3.cpp.i
-.PHONY : SetOfInts3.cpp.i
+SetOfInts1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C12.dir\build.make CMakeFiles/C12.dir/SetOfInts1.cpp.i
+.PHONY : SetOfInts1.cpp.i
 
-SetOfInts3.s: SetOfInts3.cpp.s
+SetOfInts1.s: SetOfInts1.cpp.s
 
-.PHONY : SetOfInts3.s
+.PHONY : SetOfInts1.s
 
 # target to generate assembly for a file
-SetOfInts3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C12.dir\build.make CMakeFiles/C12.dir/SetOfInts3.cpp.s
-.PHONY : SetOfInts3.cpp.s
+SetOfInts1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C12.dir\build.make CMakeFiles/C12.dir/SetOfInts1.cpp.s
+.PHONY : SetOfInts1.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -205,9 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C12
-	@echo ... SetOfInts3.obj
-	@echo ... SetOfInts3.i
-	@echo ... SetOfInts3.s
+	@echo ... SetOfInts1.obj
+	@echo ... SetOfInts1.i
+	@echo ... SetOfInts1.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
