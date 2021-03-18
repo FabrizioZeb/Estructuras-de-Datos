@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C21/Exceptions.h
+string
+-
+iosfwd
+-
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C21/Stack.h
+Exceptions.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C21/Exceptions.h
+iostream
+-
+iomanip
+-
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C21/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+Stack.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C21/Stack.h
+
