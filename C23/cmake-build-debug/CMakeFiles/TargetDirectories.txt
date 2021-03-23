@@ -1,0 +1,3 @@
+C:/Users/fabri/CLionProjects/DomJudge/ED/C23/cmake-build-debug/CMakeFiles/C23.dir
+C:/Users/fabri/CLionProjects/DomJudge/ED/C23/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/fabri/CLionProjects/DomJudge/ED/C23/cmake-build-debug/CMakeFiles/rebuild_cache.dir

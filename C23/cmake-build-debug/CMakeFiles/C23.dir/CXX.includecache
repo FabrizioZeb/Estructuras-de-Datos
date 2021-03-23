@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C23/Exceptions.h
+string
+-
+iosfwd
+-
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C23/Queue.h
+Exceptions.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C23/Exceptions.h
+iostream
+-
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C23/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+Queue.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C23/Queue.h
+
