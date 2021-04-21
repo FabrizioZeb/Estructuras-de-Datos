@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C32/Arbin.h
+Exceptions.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C32/Exceptions.h
+List.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C32/List.h
+Queue.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C32/Queue.h
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C32/Exceptions.h
+string
+-
+iosfwd
+-
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C32/List.h
+Exceptions.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C32/Exceptions.h
+cassert
+-
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C32/Queue.h
+Exceptions.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C32/Exceptions.h
+iostream
+-
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C32/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+list
+-
+Arbin.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C32/Arbin.h
+
