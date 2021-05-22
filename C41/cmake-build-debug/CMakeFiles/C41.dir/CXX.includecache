@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C41/Exceptions.h
+string
+-
+iosfwd
+-
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C41/Stack.h
+Exceptions.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C41/Exceptions.h
+iostream
+-
+iomanip
+-
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C41/TreeSet.h
+Exceptions.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C41/Exceptions.h
+Stack.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C41/Stack.h
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C41/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+Stack.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C41/Stack.h
+TreeSet.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C41/TreeSet.h
+
