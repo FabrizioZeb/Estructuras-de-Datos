@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/fabri/CLionProjects/DomJudge/C11/Error.h
+string
+-
+
+C:/Users/fabri/CLionProjects/DomJudge/C11/SetOfInts3.h
+Error.h
+C:/Users/fabri/CLionProjects/DomJudge/C11/Error.h
+
+C:/Users/fabri/CLionProjects/DomJudge/C11/main.cpp
+iostream
+-
+iomanip
+-
+fstream
+-
+SetOfInts3.h
+C:/Users/fabri/CLionProjects/DomJudge/C11/SetOfInts3.h
+
