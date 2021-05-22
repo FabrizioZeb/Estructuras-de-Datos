@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C45/Exceptions.h
+string
+-
+iosfwd
+-
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C45/Hash.h
+string
+-
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C45/HashMap.h
+Exceptions.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C45/Exceptions.h
+Hash.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C45/Hash.h
+
+C:/Users/fabri/CLionProjects/DomJudge/ED/C45/main.cpp
+sstream
+-
+iostream
+-
+fstream
+-
+string
+-
+HashMap.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C45/HashMap.h
+list
+-
+
