@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/fabri/CLionProjects/DomJudge/C11/Error.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C11/Error.h
 string
 -
 
-C:/Users/fabri/CLionProjects/DomJudge/C11/SetOfInts3.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C11/SetOfInts3.h
 Error.h
-C:/Users/fabri/CLionProjects/DomJudge/C11/Error.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C11/Error.h
 
-C:/Users/fabri/CLionProjects/DomJudge/C11/main.cpp
+C:/Users/fabri/CLionProjects/DomJudge/ED/C11/main.cpp
 iostream
 -
 iomanip
@@ -22,5 +22,5 @@ iomanip
 fstream
 -
 SetOfInts3.h
-C:/Users/fabri/CLionProjects/DomJudge/C11/SetOfInts3.h
+C:/Users/fabri/CLionProjects/DomJudge/ED/C11/SetOfInts3.h
 

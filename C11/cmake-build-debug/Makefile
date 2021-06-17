@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\fabri\CLionProjects\DomJudge\C11
+CMAKE_SOURCE_DIR = C:\Users\fabri\CLionProjects\DomJudge\ED\C11
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\fabri\CLionProjects\DomJudge\C11\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\fabri\CLionProjects\DomJudge\ED\C11\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\fabri\CLionProjects\DomJudge\C11\cmake-build-debug\CMakeFiles C:\Users\fabri\CLionProjects\DomJudge\C11\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\fabri\CLionProjects\DomJudge\ED\C11\cmake-build-debug\CMakeFiles C:\Users\fabri\CLionProjects\DomJudge\ED\C11\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\fabri\CLionProjects\DomJudge\C11\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\fabri\CLionProjects\DomJudge\ED\C11\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,33 +142,6 @@ C11/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C11.dir\build.make CMakeFiles/C11.dir/build
 .PHONY : C11/fast
 
-SetOfInts3.obj: SetOfInts3.cpp.obj
-
-.PHONY : SetOfInts3.obj
-
-# target to build an object file
-SetOfInts3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C11.dir\build.make CMakeFiles/C11.dir/SetOfInts3.cpp.obj
-.PHONY : SetOfInts3.cpp.obj
-
-SetOfInts3.i: SetOfInts3.cpp.i
-
-.PHONY : SetOfInts3.i
-
-# target to preprocess a source file
-SetOfInts3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C11.dir\build.make CMakeFiles/C11.dir/SetOfInts3.cpp.i
-.PHONY : SetOfInts3.cpp.i
-
-SetOfInts3.s: SetOfInts3.cpp.s
-
-.PHONY : SetOfInts3.s
-
-# target to generate assembly for a file
-SetOfInts3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C11.dir\build.make CMakeFiles/C11.dir/SetOfInts3.cpp.s
-.PHONY : SetOfInts3.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -205,9 +178,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C11
-	@echo ... SetOfInts3.obj
-	@echo ... SetOfInts3.i
-	@echo ... SetOfInts3.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

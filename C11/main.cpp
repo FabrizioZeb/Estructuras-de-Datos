@@ -17,7 +17,7 @@ bool resuelveCaso() {
     int k_elements, sentry = -1;
     int num;
     int pos;
-    SetOfInts3 v;
+    SetOfInts3<int> v;
     cin >> k_elements;
     if (k_elements == 0) {
         return false;
@@ -42,7 +42,8 @@ bool resuelveCaso() {
         cin >> num;
     }
 
-    cout << v << endl;
+    v.write(cout);
+    cout << endl;
 
     return true;
 }
